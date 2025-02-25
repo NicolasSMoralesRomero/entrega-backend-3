@@ -1,30 +1,83 @@
 import { adoptionsService, petsService, usersService } from "../services/index.js"
 
-const getAllAdoptions = async(req,res)=>{
-    const result = await adoptionsService.getAll();
-    res.send({status:"success",payload:result})
-}
+import { CustomErrors } from "../utils/CustomErrors.js";
+import { TIPOS_ERROR } from "../utils/EErros.js";
 
-const getAdoption = async(req,res)=>{
-    const adoptionId = req.params.aid;
-    const adoption = await adoptionsService.getBy({_id:adoptionId})
-    if(!adoption) return res.status(404).send({status:"error",error:"Adoption not found"})
-    res.send({status:"success",payload:adoption})
-}
+const getAllAdoptions = async (req, res, next) => {
+    try {
+        const result = await adoptionsService.getAll();
+        res.send({ status: "success", payload: result });
+    } catch (error) {
+        next(error);
+    }
+};
 
-const createAdoption = async(req,res)=>{
-    const {uid,pid} = req.params;
-    const user = await usersService.getUserById(uid);
-    if(!user) return res.status(404).send({status:"error", error:"user Not found"});
-    const pet = await petsService.getBy({_id:pid});
-    if(!pet) return res.status(404).send({status:"error",error:"Pet not found"});
-    if(pet.adopted) return res.status(400).send({status:"error",error:"Pet is already adopted"});
-    user.pets.push(pet._id);
-    await usersService.update(user._id,{pets:user.pets})
-    await petsService.update(pet._id,{adopted:true,owner:user._id})
-    await adoptionsService.create({owner:user._id,pet:pet._id})
-    res.send({status:"success",message:"Pet adopted"})
-}
+const getAdoption = async (req, res, next) => {
+    try {
+        const adoptionId = req.params.aid;
+        const adoption = await adoptionsService.getBy({ _id: adoptionId });
+
+        if (!adoption) {
+            return CustomErrors.createError(
+                "Adoption Not Found",
+                `Adoption with ID ${adoptionId} not found`,
+                "Adoption lookup failed",
+                TIPOS_ERROR.NOT_FOUND
+            );
+        }
+
+        res.send({ status: "success", payload: adoption });
+    } catch (error) {
+        next(error);
+    }
+};
+
+const createAdoption = async (req, res, next) => {
+    try {
+        const { uid, pid } = req.params;
+
+        const user = await usersService.getUserById(uid);
+        if (!user) {
+            return CustomErrors.createError(
+                "User Not Found",
+                `User with ID ${uid} not found`,
+                "User lookup failed",
+                TIPOS_ERROR.NOT_FOUND
+            );
+        }
+
+        const pet = await petsService.getBy({ _id: pid });
+        if (!pet) {
+            return CustomErrors.createError(
+                "Pet Not Found",
+                `Pet with ID ${pid} not found`,
+                "Pet lookup failed",
+                TIPOS_ERROR.NOT_FOUND
+            );
+        }
+
+        if (pet.adopted) {
+            return CustomErrors.createError(
+                "Pet Already Adopted",
+                `Pet with ID ${pid} is already adopted`,
+                "Adoption conflict",
+                TIPOS_ERROR.ARGUMENTOS_INVALIDOS
+            );
+        }
+
+        // Actualizar usuario y mascota
+        user.pets.push(pet._id);
+        await usersService.update(user._id, { pets: user.pets });
+        await petsService.update(pet._id, { adopted: true, owner: user._id });
+
+        // Registrar adopción
+        await adoptionsService.create({ owner: user._id, pet: pet._id });
+
+        res.send({ status: "success", message: "Pet adopted successfully" });
+    } catch (error) {
+        next(error);
+    }
+};
 
 export default {
     createAdoption,

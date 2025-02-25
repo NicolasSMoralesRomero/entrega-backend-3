@@ -9,5 +9,6 @@ export const CONFIG = {
         SECRET: process.env.MONGO_SECRET
     },
     JWT_SECRET: process.env.JWT_SECRET,
+    COOKIE_SECRET: process.env.COOKIE_SECRET
 
 }
