@@ -7,6 +7,8 @@ import jwt from 'jsonwebtoken';
 import { CustomErrors } from '../utils/CustomErrors.js';
 import { TIPOS_ERROR } from '../utils/EErros.js';
 
+import userModel from "../dao/models/User.js"
+import petModel from "../dao/models/Pet.js"
 
 const router = Router();
 
@@ -78,6 +80,44 @@ router.post('/login', async (req, res, next) => {
            .send({ status: "success", message: "Mock login successful" });
 
     } catch (error) {
+        next(error);
+    }
+});
+
+router.get('/mockingusers', async (req, res, next) => {
+    try {
+        const mockUsers = await generateMockUsers(50);
+        res.json({ status: "success", payload: mockUsers });
+    } catch (error) {
+        req.logger.error(`Error en /mockingusers: ${error.message}`);
+        next(error);
+    }
+});
+
+
+router.get('/mockingpets', (req, res) => {
+    const mockPets = generateMockPets(10);
+    res.json({ status: "success", payload: mockPets });
+});
+
+// Endpoint para generar usuarios y mascotas en la base de datos
+router.post('/generateData', async (req, res, next) => {
+    try {
+        const { users, pets } = req.body;
+
+        if (!users || !pets) {
+            return res.status(400).json({ error: "Debe proporcionar la cantidad de usuarios y mascotas a generar" });
+        }
+
+        const mockUsers = await generateMockUsers(users);
+        await userModel.insertMany(mockUsers);
+
+        const mockPets = generateMockPets(pets);
+        await petModel.insertMany(mockPets);
+
+        res.json({ status: "success", message: "Datos insertados correctamente" });
+    } catch (error) {
+        req.logger.error(`Error en /generateData: ${error.message}`);
         next(error);
     }
 });

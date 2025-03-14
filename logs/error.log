@@ -1,0 +1,4 @@
+{"level":"error","message":"Error en /generateData: UserModel is not defined","timestamp":"2025-03-14T12:50:53.055Z"}
+{"level":"error","message":"Error handler activado: UserModel is not defined","timestamp":"2025-03-14T12:50:53.059Z"}
+{"level":"error","message":"Error en /generateData: userModel is not defined","timestamp":"2025-03-14T12:59:56.548Z"}
+{"level":"error","message":"Error handler activado: userModel is not defined","timestamp":"2025-03-14T12:59:56.550Z"}

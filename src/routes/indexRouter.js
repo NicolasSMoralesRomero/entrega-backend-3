@@ -13,4 +13,4 @@ router.use('/api/users', usersRouter);
 router.use('/api/pets', petsRouter);
 router.use('/api/adoptions', adoptionsRouter);
 router.use('/api/sessions', sessionsRouter);
-router.use('/api/mocking', mockingRoutes);
+router.use('/api/mocks', mockingRoutes);

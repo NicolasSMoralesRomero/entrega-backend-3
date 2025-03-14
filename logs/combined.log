@@ -6,3 +6,20 @@
 {"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-03-12T18:43:34.251Z"}
 {"level":"info","message":"Start server in PORT 8080","timestamp":"2025-03-14T12:34:06.499Z"}
 {"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-03-14T12:34:07.986Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-03-14T12:47:55.244Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-03-14T12:47:56.167Z"}
+{"level":"info","message":"Request method: GET, URL: //api/mocks/mockingusers","timestamp":"2025-03-14T12:49:55.044Z"}
+{"level":"info","message":"Request method: GET, URL: /api/mocks/mockingusers","timestamp":"2025-03-14T12:50:08.004Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-03-14T12:50:52.364Z"}
+{"level":"error","message":"Error en /generateData: UserModel is not defined","timestamp":"2025-03-14T12:50:53.055Z"}
+{"level":"error","message":"Error handler activado: UserModel is not defined","timestamp":"2025-03-14T12:50:53.059Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-03-14T12:59:49.977Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-03-14T12:59:50.778Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-03-14T12:59:56.333Z"}
+{"level":"error","message":"Error en /generateData: userModel is not defined","timestamp":"2025-03-14T12:59:56.548Z"}
+{"level":"error","message":"Error handler activado: userModel is not defined","timestamp":"2025-03-14T12:59:56.550Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-03-14T13:04:18.109Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-03-14T13:04:18.839Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-03-14T13:04:27.988Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users","timestamp":"2025-03-14T13:05:24.015Z"}
+{"level":"info","message":"Request method: GET, URL: /api/pets","timestamp":"2025-03-14T13:05:39.918Z"}

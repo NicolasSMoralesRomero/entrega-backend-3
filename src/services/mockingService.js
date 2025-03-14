@@ -1,21 +1,22 @@
 import { faker } from '@faker-js/faker';
 import { createHash } from '../utils/index.js';
 
-
-// A mejorar: 
-// que el mail generado sea igual al nombre y apellido
-
 export const generateMockUsers = async (count = 10) => {
     return Promise.all(Array.from({ length: count }, async () => {
-        const password = "password123"; // Contraseña predefinida
+        const password = "coder123"; // Contraseña predefinida
         const hashedPassword = await createHash(password);
+
+        const firstName = faker.person.firstName();
+        const lastName = faker.person.lastName();
+        const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}@gmail.com`;
 
         return {
             _id: faker.database.mongodbObjectId(),
-            first_name: faker.person.firstName(),
-            last_name: faker.person.lastName(),
-            email: faker.internet.email(),
+            first_name: firstName,
+            last_name: lastName,
+            email: email.replace(/ /g, ""), // Elimina espacios si los hubiera
             password: hashedPassword,
+            role: faker.helpers.arrayElement(["user", "admin"]), // Asigna rol aleatorio
             pets: [],
         };
     }));
