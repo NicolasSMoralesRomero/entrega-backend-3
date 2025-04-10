@@ -29,3 +29,9 @@ npm start
 5. Ingresa a la siguiente URL en Postman para probar la API:
 
 http://localhost:8080/
+
+## Documentación
+Puedes revisar la documentación de los endpoints de users y pets desde la siguiente URL:
+
+http://localhost:8080/api/docs/users
+http://localhost:8080/api/docs/pets
