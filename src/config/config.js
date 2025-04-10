@@ -1,6 +1,7 @@
-import { config } from "dotenv";
+import dotenv from 'dotenv';
 
-config();
+const envFile = process.env.NODE_ENV === 'test' ? '.env.testing' : '.env';
+dotenv.config({ path: envFile });
 
 export const CONFIG = {
     PORT: process.env.PORT || 5000,
@@ -10,5 +11,4 @@ export const CONFIG = {
     },
     JWT_SECRET: process.env.JWT_SECRET,
     COOKIE_SECRET: process.env.COOKIE_SECRET
-
-}
+};

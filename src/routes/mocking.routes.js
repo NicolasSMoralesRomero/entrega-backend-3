@@ -103,23 +103,30 @@ router.get('/mockingpets', (req, res) => {
 // Endpoint para generar usuarios y mascotas en la base de datos
 router.post('/generateData', async (req, res, next) => {
     try {
-        const { users, pets } = req.body;
-
-        if (!users || !pets) {
-            return res.status(400).json({ error: "Debe proporcionar la cantidad de usuarios y mascotas a generar" });
+      const { users, pets } = req.body;
+  
+      if (users === undefined || pets === undefined) {
+        return res.status(400).json({ error: "Debe proporcionar la cantidad de usuarios y mascotas a generar" });
+      }
+  
+      const mockUsers = await generateMockUsers(users);
+      const insertedUsers = await userModel.insertMany(mockUsers);
+  
+      const mockPets = generateMockPets(pets).map(p => ({ ...p, adopted: false }));
+      const insertedPets = await petModel.insertMany(mockPets);
+  
+      res.json({
+        status: "success",
+        message: "Datos insertados correctamente",
+        payload: {
+          users: insertedUsers,
+          pets: insertedPets
         }
-
-        const mockUsers = await generateMockUsers(users);
-        await userModel.insertMany(mockUsers);
-
-        const mockPets = generateMockPets(pets);
-        await petModel.insertMany(mockPets);
-
-        res.json({ status: "success", message: "Datos insertados correctamente" });
+      });
     } catch (error) {
-        req.logger.error(`Error en /generateData: ${error.message}`);
-        next(error);
+      req.logger?.error?.(`Error en /generateData: ${error.message}`);
+      next(error);
     }
-});
+  });
 
 export default router;

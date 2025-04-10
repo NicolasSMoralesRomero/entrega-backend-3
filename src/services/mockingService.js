@@ -28,7 +28,7 @@ export const generateMockPets = (count = 10) => {
         name: faker.animal.dog(),
         specie: faker.helpers.arrayElement(["dog", "cat", "rabbit"]),
         birthDate: faker.date.past().toISOString(),
-        adopted: faker.datatype.boolean(),
+        adopted: false,
     }));
 };
 

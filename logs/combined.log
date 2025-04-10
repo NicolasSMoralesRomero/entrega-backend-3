@@ -125,3 +125,253 @@
 {"level":"info","message":"Request method: GET, URL: /api/docs/users/favicon-32x32.png","timestamp":"2025-04-10T13:17:20.784Z"}
 {"level":"info","message":"Request method: GET, URL: /api/docs/users/favicon-32x32.png","timestamp":"2025-04-10T13:17:22.213Z"}
 {"level":"info","message":"Request method: GET, URL: /api/docs/users/favicon-32x32.png","timestamp":"2025-04-10T13:17:27.925Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T13:41:41.515Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T13:41:42.338Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mockingusers","timestamp":"2025-04-10T13:41:49.608Z"}
+{"level":"info","message":"Request method: POST, URL: /api/pets","timestamp":"2025-04-10T13:41:49.624Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/undefined/67f7ca9d1aa6cdc6e8d63e92","timestamp":"2025-04-10T13:41:49.711Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T13:41:49.721Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T13:41:49.731Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/undefined/67f7ca9d1aa6cdc6e8d63e92","timestamp":"2025-04-10T13:41:49.864Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T13:41:49.866Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T13:49:22.814Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T13:49:23.807Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T13:50:53.102Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T13:50:54.017Z"}
+{"level":"info","message":"Request method: POST, URL: /api/users/register","timestamp":"2025-04-10T13:51:06.502Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T13:58:07.542Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T13:58:08.404Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T13:59:02.581Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T13:59:03.655Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:01:18.928Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:01:19.829Z"}
+{"level":"info","message":"Request method: POST, URL: /api/users/register","timestamp":"2025-04-10T14:01:24.941Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:07:13.111Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:07:14.089Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:07:20.308Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:12:42.277Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:12:43.156Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:13:30.153Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:13:30.872Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:13:34.970Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:17:55.438Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:17:56.265Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:18:01.853Z"}
+{"level":"info","message":"Start server in PORT 8080","timestamp":"2025-04-10T14:21:53.432Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:21:54.393Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:21:58.990Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:33:32.662Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T14:36:21.400Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:36:22.476Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T14:39:11.098Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:39:12.075Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:39:18.753Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T14:45:27.029Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:45:27.822Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:45:31.881Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T14:50:21.589Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:50:22.362Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/mockingusers","timestamp":"2025-04-10T14:50:43.979Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T14:56:01.678Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T14:56:02.520Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T14:56:09.658Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/99f38458db5bbb4a8d500bcb/7dfe0e3888e6548d597befbb","timestamp":"2025-04-10T14:56:10.095Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T14:56:10.455Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7dc0aea07695979599df6","timestamp":"2025-04-10T14:56:10.577Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/99f38458db5bbb4a8d500bcb/7dfe0e3888e6548d597befbb","timestamp":"2025-04-10T14:56:10.641Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 7dfe0e3888e6548d597befbb is already adopted","timestamp":"2025-04-10T14:56:10.747Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:01:23.965Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:01:24.931Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:01:29.814Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/a51b851bd3afe0bf8edbfaef/ba5415060d75d0e0cda9cdeb","timestamp":"2025-04-10T15:01:30.020Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID ba5415060d75d0e0cda9cdeb is already adopted","timestamp":"2025-04-10T15:01:30.131Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:01:30.143Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/a51b851bd3afe0bf8edbfaef/ba5415060d75d0e0cda9cdeb","timestamp":"2025-04-10T15:01:30.509Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID ba5415060d75d0e0cda9cdeb is already adopted","timestamp":"2025-04-10T15:01:30.611Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7dd4acff5c5a6aa856329/ba5415060d75d0e0cda9cdeb","timestamp":"2025-04-10T15:01:30.620Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7dd4acff5c5a6aa856329 not found","timestamp":"2025-04-10T15:01:30.673Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/a51b851bd3afe0bf8edbfaef/67f7dd4acff5c5a6aa85632a","timestamp":"2025-04-10T15:01:30.682Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7dd4acff5c5a6aa85632a not found","timestamp":"2025-04-10T15:01:30.775Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:01:30.784Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:01:30.787Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7dd4acff5c5a6aa85632b","timestamp":"2025-04-10T15:01:30.796Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7dd4acff5c5a6aa85632b not found","timestamp":"2025-04-10T15:01:30.844Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:01:30.854Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:01:30.855Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:05:13.357Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:05:14.159Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:05:18.907Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/522a746826e38cbf68beceb3/6b7e4bba8d9a9348b0c369da","timestamp":"2025-04-10T15:05:19.139Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:05:19.469Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/522a746826e38cbf68beceb3/6b7e4bba8d9a9348b0c369da","timestamp":"2025-04-10T15:05:19.540Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 6b7e4bba8d9a9348b0c369da is already adopted","timestamp":"2025-04-10T15:05:19.686Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7de2f11a70b18fc9c07f7/6b7e4bba8d9a9348b0c369da","timestamp":"2025-04-10T15:05:19.697Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7de2f11a70b18fc9c07f7 not found","timestamp":"2025-04-10T15:05:19.753Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/522a746826e38cbf68beceb3/67f7de2f11a70b18fc9c07f8","timestamp":"2025-04-10T15:05:19.760Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7de2f11a70b18fc9c07f8 not found","timestamp":"2025-04-10T15:05:19.886Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:05:19.894Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:05:19.897Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7de2f11a70b18fc9c07f9","timestamp":"2025-04-10T15:05:19.906Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7de2f11a70b18fc9c07f9 not found","timestamp":"2025-04-10T15:05:19.963Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:05:19.969Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:05:19.970Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:09:15.962Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:09:16.713Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:09:21.018Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/dbccb0aa326fc2feaeed869a/923cefc7fa785aa6bb17a9ad","timestamp":"2025-04-10T15:09:21.234Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:09:21.530Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/dbccb0aa326fc2feaeed869a/923cefc7fa785aa6bb17a9ad","timestamp":"2025-04-10T15:09:21.597Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 923cefc7fa785aa6bb17a9ad is already adopted","timestamp":"2025-04-10T15:09:21.704Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7df21f58e4e7686157457/923cefc7fa785aa6bb17a9ad","timestamp":"2025-04-10T15:09:21.712Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7df21f58e4e7686157457 not found","timestamp":"2025-04-10T15:09:21.769Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/dbccb0aa326fc2feaeed869a/67f7df21f58e4e7686157458","timestamp":"2025-04-10T15:09:21.785Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7df21f58e4e7686157458 not found","timestamp":"2025-04-10T15:09:21.885Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:09:21.892Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:09:21.895Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7df21f58e4e7686157459","timestamp":"2025-04-10T15:09:21.899Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7df21f58e4e7686157459 not found","timestamp":"2025-04-10T15:09:21.943Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:09:21.955Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:09:21.956Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:27:03.487Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:27:04.422Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:27:10.255Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/ebd2d2b1c11fc4acf1703ee7/0da1ddfc5b0d3a7babfa9726","timestamp":"2025-04-10T15:27:10.478Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:27:10.780Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e34e10a2530e672c3b65","timestamp":"2025-04-10T15:27:10.840Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/ebd2d2b1c11fc4acf1703ee7/0da1ddfc5b0d3a7babfa9726","timestamp":"2025-04-10T15:27:10.891Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 0da1ddfc5b0d3a7babfa9726 is already adopted","timestamp":"2025-04-10T15:27:10.991Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7e34e7f1fa28ad876617f/0da1ddfc5b0d3a7babfa9726","timestamp":"2025-04-10T15:27:11.000Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e34e7f1fa28ad876617f not found","timestamp":"2025-04-10T15:27:11.049Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/ebd2d2b1c11fc4acf1703ee7/67f7e34f7f1fa28ad8766180","timestamp":"2025-04-10T15:27:11.057Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7e34f7f1fa28ad8766180 not found","timestamp":"2025-04-10T15:27:11.159Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:27:11.166Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:27:11.169Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e34f7f1fa28ad8766181","timestamp":"2025-04-10T15:27:11.173Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7e34f7f1fa28ad8766181 not found","timestamp":"2025-04-10T15:27:11.217Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:27:11.225Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:27:11.226Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:40:25.979Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:40:26.934Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:43:44.568Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:43:45.268Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:43:48.211Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/72cf9aeff047fa4152607fdd/b1dcc8ab6fa80bfebd9c1afa","timestamp":"2025-04-10T15:43:48.412Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:43:48.744Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e7349b5d40f7da8b96eb","timestamp":"2025-04-10T15:43:48.802Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/72cf9aeff047fa4152607fdd/b1dcc8ab6fa80bfebd9c1afa","timestamp":"2025-04-10T15:43:48.862Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID b1dcc8ab6fa80bfebd9c1afa is already adopted","timestamp":"2025-04-10T15:43:48.977Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7e73466475b623fb6e6fd/b1dcc8ab6fa80bfebd9c1afa","timestamp":"2025-04-10T15:43:48.986Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e73466475b623fb6e6fd not found","timestamp":"2025-04-10T15:43:49.046Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/72cf9aeff047fa4152607fdd/67f7e73566475b623fb6e6fe","timestamp":"2025-04-10T15:43:49.054Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7e73566475b623fb6e6fe not found","timestamp":"2025-04-10T15:43:49.149Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:43:49.156Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:43:49.159Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e73566475b623fb6e6ff","timestamp":"2025-04-10T15:43:49.167Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7e73566475b623fb6e6ff not found","timestamp":"2025-04-10T15:43:49.216Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:43:49.225Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:43:49.226Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:43:49.423Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:51:21.907Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:51:22.916Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:51:27.162Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/c48adadc55fcfb6235fc28de/bc1d262de0ffbbce1882ac6b","timestamp":"2025-04-10T15:51:27.352Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:51:27.625Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e8fffaa5ba125793fa98","timestamp":"2025-04-10T15:51:27.679Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/c48adadc55fcfb6235fc28de/bc1d262de0ffbbce1882ac6b","timestamp":"2025-04-10T15:51:27.732Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID bc1d262de0ffbbce1882ac6b is already adopted","timestamp":"2025-04-10T15:51:27.828Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7e8ffca653df1e2d8b2bb/bc1d262de0ffbbce1882ac6b","timestamp":"2025-04-10T15:51:27.839Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e8ffca653df1e2d8b2bb not found","timestamp":"2025-04-10T15:51:27.892Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/c48adadc55fcfb6235fc28de/67f7e8ffca653df1e2d8b2bc","timestamp":"2025-04-10T15:51:27.906Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7e8ffca653df1e2d8b2bc not found","timestamp":"2025-04-10T15:51:28.002Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:51:28.007Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:51:28.009Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e900ca653df1e2d8b2bd","timestamp":"2025-04-10T15:51:28.015Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7e900ca653df1e2d8b2bd not found","timestamp":"2025-04-10T15:51:28.057Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:51:28.069Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:51:28.071Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:51:28.257Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:53:06.864Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:53:07.815Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:53:12.742Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/cb5fe65eef31fa926f6f5106/5f242e3d2b6f5f28f15544f1","timestamp":"2025-04-10T15:53:12.959Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:53:13.260Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e9698266e08f9077c35e","timestamp":"2025-04-10T15:53:13.325Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/cb5fe65eef31fa926f6f5106/5f242e3d2b6f5f28f15544f1","timestamp":"2025-04-10T15:53:13.385Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 5f242e3d2b6f5f28f15544f1 is already adopted","timestamp":"2025-04-10T15:53:13.483Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7e969ff061a05b7d02b4b/5f242e3d2b6f5f28f15544f1","timestamp":"2025-04-10T15:53:13.493Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e969ff061a05b7d02b4b not found","timestamp":"2025-04-10T15:53:13.539Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/cb5fe65eef31fa926f6f5106/67f7e969ff061a05b7d02b4c","timestamp":"2025-04-10T15:53:13.554Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7e969ff061a05b7d02b4c not found","timestamp":"2025-04-10T15:53:13.656Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:53:13.666Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:53:13.669Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e969ff061a05b7d02b4d","timestamp":"2025-04-10T15:53:13.680Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7e969ff061a05b7d02b4d not found","timestamp":"2025-04-10T15:53:13.751Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:53:13.766Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:53:13.768Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:53:13.971Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T15:54:56.597Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T15:54:57.438Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:55:01.222Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b3c36a50cfed349e7e450001/9ecacea6bce2aca28b07e8af","timestamp":"2025-04-10T15:55:01.430Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T15:55:01.770Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e9d5ec129460c2f58cc2","timestamp":"2025-04-10T15:55:01.827Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b3c36a50cfed349e7e450001/9ecacea6bce2aca28b07e8af","timestamp":"2025-04-10T15:55:01.886Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 9ecacea6bce2aca28b07e8af is already adopted","timestamp":"2025-04-10T15:55:01.986Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7e9d56670e81f2055eb6b/9ecacea6bce2aca28b07e8af","timestamp":"2025-04-10T15:55:01.992Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e9d56670e81f2055eb6b not found","timestamp":"2025-04-10T15:55:02.038Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b3c36a50cfed349e7e450001/67f7e9d66670e81f2055eb6c","timestamp":"2025-04-10T15:55:02.047Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7e9d66670e81f2055eb6c not found","timestamp":"2025-04-10T15:55:02.141Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T15:55:02.147Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:55:02.150Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7e9d66670e81f2055eb6d","timestamp":"2025-04-10T15:55:02.159Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7e9d66670e81f2055eb6d not found","timestamp":"2025-04-10T15:55:02.206Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T15:55:02.217Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T15:55:02.218Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T15:55:02.397Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users","timestamp":"2025-04-10T15:55:02.520Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/4ac880fe05a7c5e529c588f0","timestamp":"2025-04-10T15:55:02.578Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/67f7e9d66670e81f2055eb71","timestamp":"2025-04-10T15:55:02.636Z"}
+{"level":"error","message":"Error Get User: \nDetalle: User with ID 67f7e9d66670e81f2055eb71 not found","timestamp":"2025-04-10T15:55:02.683Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/notAValidId","timestamp":"2025-04-10T15:55:02.691Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:55:02.692Z"}
+{"level":"info","message":"Request method: PUT, URL: /api/users/4ac880fe05a7c5e529c588f0","timestamp":"2025-04-10T15:55:02.700Z"}
+{"level":"info","message":"Request method: PUT, URL: /api/users/67f7e9d66670e81f2055eb72","timestamp":"2025-04-10T15:55:02.820Z"}
+{"level":"error","message":"User not found: \nDetalle: User with ID 67f7e9d66670e81f2055eb72 not found","timestamp":"2025-04-10T15:55:02.868Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/4ac880fe05a7c5e529c588f0","timestamp":"2025-04-10T15:55:02.881Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/67f7e9d66670e81f2055eb73","timestamp":"2025-04-10T15:55:02.997Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7e9d66670e81f2055eb73 not found","timestamp":"2025-04-10T15:55:03.046Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/notAValidId","timestamp":"2025-04-10T15:55:03.053Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T15:55:03.055Z"}
+{"level":"info","message":"Start server in PORT 8081","timestamp":"2025-04-10T16:01:30.802Z"}
+{"level":"info","message":"Conectado a la Base de datos","timestamp":"2025-04-10T16:01:31.640Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T16:01:36.519Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b5bf0b6acaee6cd41ab8ff5d/7e4dacee76d514f6921b1e1c","timestamp":"2025-04-10T16:01:36.751Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions","timestamp":"2025-04-10T16:01:37.048Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7eb60e877fcb783d5f5e3","timestamp":"2025-04-10T16:01:37.106Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b5bf0b6acaee6cd41ab8ff5d/7e4dacee76d514f6921b1e1c","timestamp":"2025-04-10T16:01:37.160Z"}
+{"level":"error","message":"Pet Already Adopted: \nDetalle: Pet with ID 7e4dacee76d514f6921b1e1c is already adopted","timestamp":"2025-04-10T16:01:37.267Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/67f7eb616eced1720e676ab1/7e4dacee76d514f6921b1e1c","timestamp":"2025-04-10T16:01:37.276Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7eb616eced1720e676ab1 not found","timestamp":"2025-04-10T16:01:37.327Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/b5bf0b6acaee6cd41ab8ff5d/67f7eb616eced1720e676ab2","timestamp":"2025-04-10T16:01:37.335Z"}
+{"level":"error","message":"Pet Not Found: \nDetalle: Pet with ID 67f7eb616eced1720e676ab2 not found","timestamp":"2025-04-10T16:01:37.433Z"}
+{"level":"info","message":"Request method: POST, URL: /api/adoptions/invalidUserId/invalidPetId","timestamp":"2025-04-10T16:01:37.441Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"invalidUserId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T16:01:37.444Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/67f7eb616eced1720e676ab3","timestamp":"2025-04-10T16:01:37.452Z"}
+{"level":"error","message":"Adoption Not Found: \nDetalle: Adoption with ID 67f7eb616eced1720e676ab3 not found","timestamp":"2025-04-10T16:01:37.508Z"}
+{"level":"info","message":"Request method: GET, URL: /api/adoptions/notAValidId","timestamp":"2025-04-10T16:01:37.513Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Adoptions\"","timestamp":"2025-04-10T16:01:37.514Z"}
+{"level":"info","message":"Request method: POST, URL: /api/mocks/generateData","timestamp":"2025-04-10T16:01:37.700Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users","timestamp":"2025-04-10T16:01:37.807Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/edeb22cad3dbfbb3c219f09d","timestamp":"2025-04-10T16:01:37.859Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/67f7eb616eced1720e676ab7","timestamp":"2025-04-10T16:01:37.909Z"}
+{"level":"error","message":"Error Get User: \nDetalle: User with ID 67f7eb616eced1720e676ab7 not found","timestamp":"2025-04-10T16:01:37.954Z"}
+{"level":"info","message":"Request method: GET, URL: /api/users/notAValidId","timestamp":"2025-04-10T16:01:37.960Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T16:01:37.961Z"}
+{"level":"info","message":"Request method: PUT, URL: /api/users/edeb22cad3dbfbb3c219f09d","timestamp":"2025-04-10T16:01:37.966Z"}
+{"level":"info","message":"Request method: PUT, URL: /api/users/67f7eb626eced1720e676ab8","timestamp":"2025-04-10T16:01:38.075Z"}
+{"level":"error","message":"User not found: \nDetalle: User with ID 67f7eb626eced1720e676ab8 not found","timestamp":"2025-04-10T16:01:38.122Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/edeb22cad3dbfbb3c219f09d","timestamp":"2025-04-10T16:01:38.134Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/67f7eb626eced1720e676ab9","timestamp":"2025-04-10T16:01:38.238Z"}
+{"level":"error","message":"User Not Found: \nDetalle: User with ID 67f7eb626eced1720e676ab9 not found","timestamp":"2025-04-10T16:01:38.290Z"}
+{"level":"info","message":"Request method: DELETE, URL: /api/users/notAValidId","timestamp":"2025-04-10T16:01:38.301Z"}
+{"level":"error","message":"Error handler activado: Cast to ObjectId failed for value \"notAValidId\" (type string) at path \"_id\" for model \"Users\"","timestamp":"2025-04-10T16:01:38.306Z"}
