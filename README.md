@@ -1,11 +1,28 @@
 # Proyecto Backend 3
 
-Este es un proyecto Backend donde se implementan herramientas de testing y logger.
+[![Docker Pulls](https://img.shields.io/docker/pulls/nsmorales/backend-pets?style=for-the-badge)](https://hub.docker.com/r/nsmorales/backend-pets)
 
-El repositorio del proyecto original es:  
-[https://github.com/CoderContenidos/RecursosBackend-Adoptme](https://github.com/CoderContenidos/RecursosBackend-Adoptme)
+Este es un proyecto Backend donde se implementan herramientas de **testing**, **logger** y **Docker**.
 
-## Pasos para clonar y testear el código
+Repositorio original del proyecto:  
+🔗 [CoderContenidos/RecursosBackend-Adoptme](https://github.com/CoderContenidos/RecursosBackend-Adoptme)
+
+---
+
+## 🛠 Tecnologías usadas
+
+- **Node.js** como entorno de ejecución.
+- **Express.js** como framework principal.
+- **MongoDB** como base de datos NoSQL.
+- **Mongoose** para modelado de datos en MongoDB.
+- **Mocha**, **Chai** y **Supertest** para testing funcional.
+- **Swagger** para documentación de la API.
+- **Winston** para el sistema de logging.
+- **Docker** para contenerizar el backend.
+
+---
+
+## 🚀 Pasos para clonar y ejecutar el proyecto
 
 1. Clonar el repositorio en tu máquina local con el siguiente comando:
 
@@ -30,7 +47,7 @@ npm start
 
 http://localhost:8080/
 
-##  Documentación
+## 📚 Documentación
 
 Puedes revisar la documentación Swagger de los endpoints de `users` y `pets` en las siguientes URLs:
 
@@ -39,9 +56,10 @@ Puedes revisar la documentación Swagger de los endpoints de `users` y `pets` en
 
 ---
 
-##  Tests
+##  ✅ Tests
+Se realizan tests funcionales que validan respuestas correctas y errores esperados.
 
-Se realizan tests funcionales que validan tanto respuestas exitosas como errores esperados.
+## 🖥 ¿Cómo ejecutarlos?
 
 Para ejecutar los tests necesitas **dos terminales** (por ejemplo, usando Git Bash en Windows 11):
 
@@ -60,7 +78,7 @@ Esto levanta el servidor en el puerto 8081 con una base de datos de testing.
 
 Esto corre los tests funcionales con Mocha, Chai y Supertest.
 
-### Ejemplo de salida esperada
+### 🧪 Ejemplo de salida esperada
 
 ```bash
 Tests funcionales - router adoption
@@ -104,5 +122,32 @@ Tests funcionales - router adoption
 
 
 ```
+## 🐳 Docker
 
+Puedes usar la imagen del proyecto directamente desde Docker Hub:  
+🔗 [https://hub.docker.com/r/nsmorales/backend-pets](https://hub.docker.com/r/nsmorales/backend-pets)
 
+---
+
+### ▶️ Cómo ejecutar el contenedor
+
+1. Asegúrate de tener Docker instalado y funcionando.
+2. Abre una terminal y ejecuta los siguientes comandos:
+
+```bash
+docker pull nsmorales/backend-pets
+docker run -p 8080:8080 nsmorales/backend-pets
+```
+
+3. El backend quedará disponible en:
+http://localhost:8080
+
+### 🧰 Comandos útiles
+
+| Comando | Descripción |
+|--------|-------------|
+| `docker ps` | Lista los contenedores en ejecución. |
+| `docker stop <container_id>` | Detiene el contenedor activo. |
+| `docker rm <container_id>` | Elimina un contenedor detenido. |
+| `docker images` | Lista las imágenes descargadas. |
+| `docker rmi nsmorales/backend-pets` | Elimina la imagen del proyecto de tu máquina. |
