@@ -151,3 +151,5 @@ http://localhost:8080
 | `docker rm <container_id>` | Elimina un contenedor detenido. |
 | `docker images` | Lista las imágenes descargadas. |
 | `docker rmi nsmorales/backend-pets` | Elimina la imagen del proyecto de tu máquina. |
+
+linea para quitar .env.testing del repo
