@@ -21,7 +21,7 @@ describe("Tests funcionales - router users", function () {
   before(async () => {
     const { body: genRes } = await requester
       .post("/api/mocks/generateData")
-      .send({ users: 1, pets: 0 }); // ⬅️ Asegura que no falle por body incompleto
+      .send({ users: 1, pets: 0 }); // Para que no falle por body incompleto
 
     console.log("🧪 Respuesta de generateData:", genRes);
 

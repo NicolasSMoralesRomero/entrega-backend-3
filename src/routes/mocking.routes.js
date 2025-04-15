@@ -35,7 +35,7 @@ router.get('/generate-users', async (req, res, next) => {
         mockUsers = await generateMockUsers(5);
         res.send({ status: "success", payload: mockUsers });
     } catch (error) {
-        next(error); // Enviamos el error al errorHandler
+        next(error); // Se envia el error al errorHandler
     }
 });
 
